@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="459.0" maxWidth="742.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="459.0" prefWidth="742.0" style="-fx-background-color: #7C55E3;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXTextField alignment="CENTER" focusColor="#fcfcfc" labelFloat="true" layoutX="25.0" layoutY="202.0" prefHeight="30.0" prefWidth="335.0" promptText="Enter Enrollment Number" unFocusColor="#fffafa">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <Label alignment="CENTER" layoutX="440.0" layoutY="174.0" prefHeight="27.0" prefWidth="51.0" text="School" textFill="#eeebeb">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="506.0" layoutY="172.0" prefHeight="30.0" prefWidth="182.0" promptText="Select" style="-fx-background-color: white; -fx-background-insets: white;" />
+      <Label alignment="CENTER" layoutX="447.0" layoutY="216.0" prefHeight="27.0" prefWidth="42.0" text="Year" textFill="#eeeaea">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="506.0" layoutY="217.0" prefHeight="30.0" prefWidth="182.0" promptText="Select" style="-fx-background-color: white; -fx-background-insets: white;" />
+      <Label alignment="CENTER" layoutX="426.0" layoutY="271.0" prefHeight="27.0" prefWidth="61.0" text="Branch" textFill="#f5eeee">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="507.0" layoutY="262.0" prefHeight="30.0" prefWidth="182.0" promptText="Select" style="-fx-background-color: white; -fx-background-insets: white;" />
+      <Label alignment="CENTER" layoutX="394.0" layoutY="313.0" prefHeight="27.0" prefWidth="92.0" text="Department" textFill="#f2eded">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="507.0" layoutY="312.0" prefHeight="30.0" prefWidth="182.0" promptText="Select" style="-fx-background-color: white; -fx-background-insets: white;" />
+      <JFXButton buttonType="RAISED" layoutX="21.0" layoutY="43.0" prefHeight="32.0" prefWidth="82.0" style="-fx-background-color: #1E8EE8;" text="&lt; Back" textFill="#fffafa" />
+      <JFXButton buttonType="RAISED" layoutX="121.0" layoutY="270.0" prefHeight="32.0" prefWidth="130.0" style="-fx-background-color: #1E8EE8;" text="Search" textFill="#eeebeb">
+         <font>
+            <Font size="20.0" />
+         </font></JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="600.0" layoutY="44.0" prefHeight="32.0" prefWidth="102.0" style="-fx-background-color: #1E8EE8;" text="Add Student" textFill="#fcf6f6" />
+      <Label alignment="CENTER" layoutX="394.0" layoutY="361.0" prefHeight="27.0" prefWidth="92.0" text="Attendence" textFill="#f8f7f7">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="507.0" layoutY="360.0" prefHeight="30.0" prefWidth="182.0" promptText="Select" style="-fx-background-color: white; -fx-background-insets: white;" />
+      <JFXButton buttonType="RAISED" layoutX="169.0" layoutY="44.0" prefHeight="32.0" prefWidth="130.0" style="-fx-background-color: #1E8EE8;" text="Change Password" textFill="#f5f4f4">
+         <font>
+            <Font name="Microsoft PhagsPa" size="14.0" />
+         </font></JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="387.0" layoutY="44.0" prefHeight="32.0" prefWidth="130.0" style="-fx-background-color: #1E8EE8;" text="Aux Attendence" textFill="#f5f4f4">
+         <font>
+            <Font name="Microsoft PhagsPa" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
