@@ -10,5 +10,10 @@ The GUI consist of the interface which includes a password login window for the 
 The GUI is built using Netbeans and designed in scene builder. 
 
 
-#The GUI student data entry window
+#The GUI student data entry window:
+
+
+
+![image](https://user-images.githubusercontent.com/53126149/61595189-b9045080-ac11-11e9-9aeb-ea687a0e0612.png)
+
 
